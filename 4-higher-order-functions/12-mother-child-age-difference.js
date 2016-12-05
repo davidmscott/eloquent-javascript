@@ -1,7 +1,6 @@
 var ancestry = require('./ancestry.js');
 
 ancestry = JSON.parse(ancestry);
-console.log(typeof ancestry);
 
 function average(array) {
   function plus(a, b) { return a + b; }
